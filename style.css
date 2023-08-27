@@ -1,0 +1,195 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400&family=Changa&family=Tajawal:wght@200;300;400;500;700&display=swap');
+
+
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box; font-family: 'Almarai'sans-serif,sans-serif; } 
+.wrapper{ position: static; top: 0; left: 0; height: 100%; width: 100%; background: linear-gradient(-135deg, #c850c0, #4158d0); /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */ /* clip-path: circle(25px at calc(0% + 45px) 45px); */ clip-path: circle(25px at calc(100% - 45px) 45px); transition: all 0.3s ease-in-out; } #active:checked ~ .wrapper{ clip-path: circle(75%); }
+
+.menu-btn{ position: absolute; z-index: 2; right: 20px; /* left: 20px; */ top: 20px; height: 50px; width: 50px; text-align: center; line-height: 50px; border-radius: 50%; font-size: 20px; color: #fff; cursor: pointer;
+background-color: coral; /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */ transition: all 0.3s ease-in-out; } #active:checked ~ .menu-btn{ background: #fff; color: #4158d0; } #active:checked ~ .menu-btn i:before{ content: "\f00d"; } .wrapper ul{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); list-style: none; text-align: center; } .wrapper ul li{ margin: 15px 0; } .wrapper ul li a{ color: none; text-decoration: none; font-size: 30px; font-weight: 500; padding: 5px 30px; color: #fff; position: relative; line-height: 50px; transition: all 0.3s ease; } .wrapper ul li a:after{ position: absolute; content: ""; background: #fff; width: 100%; height: 50px; left: 0; border-radius: 50px; transform: scaleY(0); z-index: -1; transition: transform 0.3s ease; } .wrapper ul li a:hover:after{ transform: scaleY(1); } .wrapper ul li a:hover{ color: #4158d0; } input[type="checkbox"]{ display: none; } 
+
+
+
+
+
+*img {
+  width: 100%; /* or max-width: 100%; */
+  height: auto;
+}
+
+
+body {
+  
+  background-color: indigo;
+  color: white;
+    text-align: center;
+font-family: 'Almarai', sans-serif; 
+line-height: 50px
+}
+
+
+
+/* إليك بعض أمثلة للتنسيق. يمكنك تغييرها حسب الرغبة */
+
+
+.su img {
+  
+  width: 100%;
+  height: auto
+  
+}
+
+header {
+  
+  
+
+background: linear-gradient(90deg,#8e2de2, #4a00e0);
+  
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  border: 2px snow;
+  
+  
+}
+
+.s {
+  
+  flex-direction: row;
+
+  
+  
+;
+}
+
+.s img {
+  width: 60px;
+  height: auto;
+  float: left;
+  
+  margin: 15px ;
+  margin-left: 25px
+  
+  
+  
+}
+
+
+.ew {
+  background-color: indigo ;
+  border-radius: 0px 0px 20px 20px;
+  margin-top: 0px;
+  padding: 0px
+}
+
+
+
+
+.zz img {
+  width: 50% ;
+  padding: 20px;
+ 
+}
+.zz h1 {
+  background-color: coral ;
+
+}
+
+
+
+
+
+.x  {
+  margin: 35px;
+  padding-bottom: 10px;
+  border-radius: 20px 20px 15px 15px ;
+  
+  background-color: white;
+  border: 1px solid #8e2de2;
+  line-height: 50px
+  
+}
+
+.x img {
+  border-radius: 15px ;
+  padding: 5px ;
+  width: 100%;
+  height: auto
+  }
+  
+  .x h1 {
+    
+    border-radius: 18px  18px 0px 0px;
+    background: linear-gradient(90deg,#8e2de2, #4a00e0);
+  }
+  
+  .x a {
+    
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    padding: 5px 50px 5px 50px ;
+    border-radius: 10px;
+    background: linear-gradient(50deg,darkorange, orangered);
+    
+  }
+  
+  
+  
+  .foo  {
+
+    
+   background-color: white;
+   
+  }
+  .foo img {
+    
+    
+    height: auto;
+    width: 50%;
+    background-color: white
+  }
+  
+  .nhn {
+    margin:  0px 20px 0px 20px ;
+    background: indigo;
+    
+  }
+  
+  
+  .ggg {
+    display: flex;
+    
+  }
+  
+  @media screen and (max-width: 600px)
+   {
+     .ggg {
+       display: inline
+     }
+     
+   
+   }
+   
+   
+   .au {
+     background-color:  #f8f7fc;
+  border: 1px solid #8e2de2;
+  line-height: 50px
+  
+   }
+   
+  .au img {
+    border-radius: 15px;
+    padding: 5px;
+    width: 100%;
+    height: auto
+  }
+  .au h1 {
+    background-color: darkorange ;
+    border-radius: 0px 0px 18px  18px ;
+  }
